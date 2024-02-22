@@ -3,6 +3,8 @@
 ## Tarefas
 
 - [ ] Header
+    - [✓]HTML
+    - [ ]CSS
 - [ ] Apresentação
 - [ ] Projetos
 - [ ] Conhecimentos
