@@ -3,7 +3,7 @@
 ## Tarefas
 
 - [ ] Header
-    - [✓]HTML
+    - [x]HTML
     - [ ]CSS
 - [ ] Apresentação
 - [ ] Projetos
