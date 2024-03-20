@@ -37,30 +37,83 @@
             <li>
                 <div class="card">
                     <div class="image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1633451078197-b3dbf22e123a?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="600" alt="Descrição da imagem">
+                        <img src="https://images.unsplash.com/photo-1682271920907-781daffc09a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdhaXRhfGVufDB8MXwwfHx8MA%3D%3D" height="600" alt="Descrição da imagem">
                     </div>
                     <div class="card-text">
                         <h2>HarmoTab</h2>
-                        <p>Introdução a tablatura de gaita</p>
+                        <p>Modelos de harmonicas</p>
                     </div> 
                 </div>
             </li>
             <li>
                 <div class="card">
                     <div class="image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1633451078197-b3dbf22e123a?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="600" alt="Descrição da imagem">
+                        <img src="https://images.unsplash.com/photo-1598515751039-5b58e4f5f6be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FpdGF8ZW58MHwxfDB8fHww" height="600" alt="Descrição da imagem">
                     </div>
                     <div class="card-text">
                         <h2>HarmoTab</h2>
-                        <p>Introdução a tablatura de gaita</p>
+                        <p>Tablaturas e partituras </p>
                     </div> 
                 </div>
             </li>
         </ul>
     </section>
 
+    <section id="secao-orcamento">
+        <h2>Faça um orçamento</h2>
+        <form action="">
+            <div class="campo linha">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome"> 
+            </div>
+            <div class="campo email">
+                <label for="email">Email</label>
+                <input type="text">
+            </div>
 
 
+            <div class="campo">
+                <label for="idade">Idade</label>
+                <input type="number" min="1" value="18">
+            </div>
 
+            <div class="campo linha">
+                <label for="tipo">País</label>
+                <select id="tipo">
+                    <option value="1">Russia</option>
+                    <option value="2">Brasil</option>
+                    <option value="3">China</option>
+                    <option value="4">Chile</option>
+                    <option value="5">Estados Unidos</option>
+                    <option value="6">Canada</option>
+                    <option value="7">México</option>
+                    <option value="8">Peru</option>
+                </select>
+            </div>
+
+            <div class="campo linha">
+                <label for="">Precisa de protótipo?</label>
+                <div>
+                    <input type="radio" name="prototipo" id="prototipo_sim">
+                    <label for="prototipo_sim">Sim, preciso</label>
+                    <input type="radio" name="prototipo" id="prototipo_nao">
+                    <label for="prototipo_nao">Não obrigado</label>
+                </div>
+            </div>
+
+
+            <input type="checkbox" id="js">
+            <label for="js">precisa de JS</label>
+
+            <label for="prazo">Prazo</label>
+            <input type="range" min="1" max="12" id="prazo">
+
+            <button>Enviar Cadastro</button>
+            
+        </form>
+        
+        
+
+    </section>
 </body> 
 </html>
