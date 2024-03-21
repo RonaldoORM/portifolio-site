@@ -59,61 +59,67 @@
         </ul>
     </section>
 
-    <section id="secao-orcamento">
-        <h2>Faça um orçamento</h2>
+    <section id="secao-orcamento" class="box-cadastro">
+        <h2>Faça seu cadastro já!</h2>
         <form action="">
-            <div class="campo linha">
+            <div class="campo">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome"> 
+                <input type="text" id="nome" required> 
             </div>
-            <div class="campo email">
+            <div class="campo">
                 <label for="email">Email</label>
-                <input type="text">
+                <input type="email" id="email" required>
             </div>
-
-
             <div class="campo">
                 <label for="idade">Idade</label>
-                <input type="number" min="1" value="18">
+                <input type="number" id="idade" min="1" value="18">
             </div>
-
-            <div class="campo linha">
-                <label for="tipo">País</label>
-                <select id="tipo">
-                    <option value="1">Russia</option>
-                    <option value="2">Brasil</option>
-                    <option value="3">China</option>
+            <div class="campo">
+                <label for="pais">País</label>
+                <select id="pais">
+                    <option value="1">Argentina</option>
+                    <option value="2">Austrália</option>
+                    <option value="3">Brasil</option>
                     <option value="4">Chile</option>
-                    <option value="5">Estados Unidos</option>
+                    <option value="5">China</option>
                     <option value="6">Canada</option>
-                    <option value="7">México</option>
-                    <option value="8">Peru</option>
+                    <option value="7">Colômbia</option>
+                    <option value="8">Alemanha</option>
+                    <option value="9">França</option>
+                    <option value="10">Japão</option>
+                    <option value="11">Nigéria</option>
+                    <option value="12">México</option>
+                    <option value="13">Peru</option>
+                    <option value="14">Russia</option>
+                    <option value="15">Estados Unidos</option>
+                    <option value="16">Espanha</option>
+                    <option value="17">Reino Unido</option>
+                    <option value="18">Itália</option>
+                    <option value="19">Índia</option>
+                    <option value="20">África do Sul</option>
                 </select>
             </div>
-
-            <div class="campo linha">
-                <label for="">Precisa de protótipo?</label>
-                <div>
-                    <input type="radio" name="prototipo" id="prototipo_sim">
-                    <label for="prototipo_sim">Sim, preciso</label>
+            <div class="campo">
+                <label for="prototipo">Já possui gaita?</label>
+                <div class="radio-group">
+                    <input type="radio" name="prototipo" id="prototipo_sim" checked>
+                    <label for="prototipo_sim">Sim, já tenho</label>
                     <input type="radio" name="prototipo" id="prototipo_nao">
-                    <label for="prototipo_nao">Não obrigado</label>
+                    <label for="prototipo_nao">Ainda não</label>
                 </div>
             </div>
-
-
-            <input type="checkbox" id="js">
-            <label for="js">precisa de JS</label>
-
-            <label for="prazo">Prazo</label>
-            <input type="range" min="1" max="12" id="prazo">
-
-            <button>Enviar Cadastro</button>
-            
+            <div class="campo centralizado">
+                <input type="checkbox" id="js">
+                <label for="js">Já tem experiência?</label>
+            </div>
+            <div class="campo">
+                <label for="prazo">Nível de experiência</label>
+                <input type="range" id="prazo" min="1" max="10">
+            </div>
+            <div class="campo linha">
+                <button type="submit">Enviar Cadastro</button>
+            </div>
         </form>
-        
-        
-
     </section>
 </body> 
 </html>
