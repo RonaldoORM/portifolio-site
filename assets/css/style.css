@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:wght@100..900&display=swap');
 
-*{
+* {
     margin: 0;
     list-style: none;
 }
@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #8D6346;
-    font-family: Arial, sans-serif; 
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -19,8 +19,6 @@ body {
     --font-title: 'Montserrat', sans-serif;
     --font-body: 'Poppins', sans-serif;
 }
-
-
 
 header {
     height: 100vh;
@@ -41,7 +39,6 @@ header::before {
     background-position: center;
 }
 
-
 .title-box {
     background-color: var(--color-black);
     padding: 20px;
@@ -59,7 +56,7 @@ h1 {
 }
 
 header h2 {
-    font-family: var(--font-body);
+    font-family: 'Poppins', sans-serif;
     color: var(--color-white);
     font-size: 40px;
     font-weight: 600;
@@ -74,12 +71,11 @@ header h2 {
 }
 
 .text-box p {
-    font-family: var(--font-body);
+    font-family: 'Poppins', sans-serif;
     color: var(--color-white);
     font-size: 20px;
     margin: 0;
 }
-
 
 #secao-apresentacao {
     display: flex;
@@ -104,20 +100,20 @@ header h2 {
 
 #texto-apresentacao p {
     font-size: 1.5rem;
-    font-family: var(--font-body);
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
 #secao-projetos {
     background-color: #8D6346;
-    min-height: 10vh; 
-    margin-bottom: 100px; 
+    min-height: 10vh;
+    margin-bottom: 100px;
 }
 
 #secao-projetos ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; 
+    gap: 20px;
 }
 
 .card {
@@ -125,15 +121,15 @@ header h2 {
     height: 420px;
     position: relative;
     cursor: pointer;
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
 
 .image-wrapper {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    position: relative; 
+    position: relative;
 }
 
 .image-wrapper img {
@@ -201,6 +197,7 @@ header h2 {
 .campo {
     display: flex;
     flex-direction: column;
+    height: 80px;
 }
 
 .campo.linha {
@@ -232,7 +229,7 @@ input[type="checkbox"] {
 
 button {
     background-color: var(--color-destak);
-    color:var(--color-white);
+    color: var(--color-white);
     border: none;
     padding: 12px 20px;
     cursor: pointer;
@@ -248,6 +245,7 @@ button:hover {
 .radio-group {
     display: flex;
     align-items: center;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -257,6 +255,14 @@ button:hover {
 }
 
 .centralizado {
+    display: flex;
     align-items: center;
-    justify-content: center;
+    height: 80px;
+    width: 230px;
+}
+
+#valor {
+    font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
 }

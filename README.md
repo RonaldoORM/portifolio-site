@@ -5,7 +5,7 @@
 - [x] Header
     - [x]HTML
     - [x]CSS
-- [ ] Apresentação
-- [ ] Projetos
-- [ ] Conhecimentos
-- [ ] Orçamento
+- [x] Apresentação
+- [x] Projetos
+- [x] Conhecimentos
+- [x] Orçamento
