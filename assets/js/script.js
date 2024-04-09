@@ -17,6 +17,7 @@ function calcular() {
 
 //   const prototipo = document.querySelector("#prototipo_nao").checked
 //    if(prototipo) valor *= 1
+
     const nivelCliente = document.querySelector("#prazo").value
     let valor = nivelCliente
 
@@ -34,6 +35,5 @@ function calcular() {
     } else {
         nivelExperiencia = "Nível não definido";
     }
-
     document.querySelector("#valor").innerText = "Nível: " + nivelExperiencia;
 }

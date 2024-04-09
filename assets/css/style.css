@@ -34,19 +34,17 @@ header::before {
     position: absolute;
     z-index: -10;
     background-image: url("../image/HomemTocandoGaita.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: var(--color-black) url("../image/HomemTocandoGaita.png") no-repeat center/cover;
 }
 
-.title-box {
+.title-box, .text-box {
     background-color: var(--color-black);
     padding: 20px;
     border-radius: 10px;
-    margin-right: 20px; /* Espaçamento entre o retângulo do título e o texto */
+    margin-right: 20px;
 }
 
-h1 {
+h1, header h2 {
     font-family: var(--font-title);
     color: var(--color-white);
     font-size: 64px;
@@ -56,23 +54,11 @@ h1 {
 }
 
 header h2 {
-    font-family: 'Poppins', sans-serif;
-    color: var(--color-white);
     font-size: 40px;
     font-weight: 600;
-    margin: 0;
-    text-align: center;
-}
-
-.text-box {
-    background-color: var(--color-black);
-    padding: 20px;
-    border-radius: 10px;
 }
 
 .text-box p {
-    font-family: 'Poppins', sans-serif;
-    color: var(--color-white);
     font-size: 20px;
     margin: 0;
 }
@@ -100,7 +86,6 @@ header h2 {
 
 #texto-apresentacao p {
     font-size: 1.5rem;
-    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -121,8 +106,6 @@ header h2 {
     height: 420px;
     position: relative;
     cursor: pointer;
-    margin: 0;
-    padding: 0;
 }
 
 .image-wrapper {
@@ -165,8 +148,8 @@ header h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Reduzindo a margem superior */
-    margin-bottom: 50px; /* Adicionando margem inferior */
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .box-cadastro {
@@ -178,7 +161,7 @@ header h2 {
     max-width: 500px;
     width: 100%;
     box-sizing: border-box;
-    margin: auto; /* Centraliza a seção */
+    margin: auto;
 }
 
 #secao-orcamento h2 {
@@ -245,7 +228,6 @@ button:hover {
 .radio-group {
     display: flex;
     align-items: center;
-
 }
 
 @media screen and (min-width: 768px) {
@@ -263,6 +245,6 @@ button:hover {
 
 #valor {
     font-weight: bold;
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 5px;
 }
