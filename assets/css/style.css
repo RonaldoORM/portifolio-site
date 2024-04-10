@@ -97,9 +97,11 @@ header h2 {
 
 #secao-projetos ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 30px;
+    justify-items: center; 
 }
+
 
 .card {
     max-width: 300px;
